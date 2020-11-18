@@ -55,7 +55,7 @@ btn.onclick = () => {
     console.log(input.value)
     if(input.value >= 18){
         alert("Welcome")
-    }else {
+    }else{
       alert("Your age more less 18 years old")
     }
 }
