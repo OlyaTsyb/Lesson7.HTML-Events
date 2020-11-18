@@ -35,7 +35,7 @@ btn.onclick = () => {
 */
 
 // - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
-/*
+
 let input = document.createElement("input");
 input.style.height = "45px";
 input.style.width = "200px"
@@ -55,11 +55,12 @@ btn.onclick = () => {
     console.log(input.value)
     if(input.value >= 18){
         alert("Welcome")
+    }else {
+      alert("Your age more less 18 years old")
     }
-    alert("Your age more less 18 years old")
 }
 
-*/
+
 
 //- Создайте меню, которое раскрывается/сворачивается при клике
 /*
